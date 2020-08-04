@@ -1,0 +1,16 @@
+.controls,
+h1,
+h3 {
+  text-align: center;
+}
+
+.chart {
+  text-align: center;
+  /* height: 500px;
+  width: 500px; */
+}
+
+svg {
+  height: 500px;
+  width: 500px;
+}

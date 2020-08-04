@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Best Team In London</title>
+    <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <h1>Best Football Team in London</h1>
+    <h3>nvd3 graph realtime hosted on Firebase</h3>
+
+    <div id="chart" class="chart">
+      <svg></svg>
+    </div>
+
+    <div id="controls" class="controls">
+      <button class="btn btn-danger" id="arsenal">Arsenal</button>
+      <button class="btn btn-primary" id="chelsea">Chelsea</button>
+      <button class="btn btn-light" id="spurs">Spurs</button>
+      <button class="btn btn-info" id="qpr">Qpr</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
